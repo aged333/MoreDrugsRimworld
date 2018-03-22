@@ -2,8 +2,8 @@
 <Defs>
 
   <ThingDef ParentName="MakeableDrugBase">
-    <defName>MoreDrugs_PoweredSmokeleafJoint</defName>
-    <label>powered smokeleaf joint</label>
+    <defName>MoreDrugs_PurifiedSmokeleafJoint</defName>
+    <label>purified smokeleaf joint</label>
     <description>Smokeleaf leaves prepared in small rolls for smoking. The drug improves mood, but also increases appetite, reduces focus and slows movement. Smokeleaf use can produce a dependency. Can be produced without equipment, at a crafting spot.</description>
     <graphicData>
       <texPath>Things/Item/Drug/Joint</texPath>
@@ -14,7 +14,7 @@
       <WorkToMake>600</WorkToMake>
       <MarketValue>30</MarketValue>
       <Mass>0.05</Mass>
-			<DeteriorationRate>24</DeteriorationRate>
+			<DeteriorationRate>25</DeteriorationRate>
     </statBases>
     <techLevel>Industrial</techLevel>
     <ingestible>
@@ -128,7 +128,7 @@
       <li>
         <label>high on smokeleaf</label>
         <description>I'm, like, stoned, man.</description>
-        <baseMoodEffect>15</baseMoodEffect>
+        <baseMoodEffect>25</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
