@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>MoreDrugs_AdvancedDrugProcessing</defName>
+    <label>Advanced Drug Processing</label>
+    <description>Learn advanced drug processing, unlock advanced drug lab.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <tab>MoreDrugs_MoreDrugs</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MoreDrugs_NeutroamineProduction</defName>
+    <label>Neutroamine Production</label>
+    <description>Learn how to produce neutroamine from neutromite leaves. Neutromite plants can only be grown in a hydroponics basin.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MoreDrugs_AdvancedDrugProcessing</li>
+      <li>Hydroponics</li>
+    </prerequisites>
+    <tab>MoreDrugs_MoreDrugs</tab>
+    <researchViewX>1.0</researchViewX>
+    <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MoreDrugs_PolarizedSubstances</defName>
+    <label>Polarized substances</label>
+    <description>Learn how to separate neutroamine into positomine and negatomine.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MoreDrugs_NeutroamineProduction</li>
+    </prerequisites>
+    <tab>MoreDrugs_MoreDrugs</tab>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

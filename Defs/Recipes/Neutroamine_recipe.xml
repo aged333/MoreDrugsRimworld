@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>MoreDrugs_MakeNeutroamine</defName>
+    <label>make neutroamine</label>
+    <description>Make neutroamine from neutromite leaves.</description>
+		<jobString>making neutroamine</jobString>
+		<workAmount>1600</workAmount>
+    <workSpeedStat>DrugProductionSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+    <researchPrerequisite>MoreDrugs_NeutroamineProduction</researchPrerequisite>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+			<li>MoreDrugs_AdvancedDrugLab</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MoreDrugs_NeutromitePlantLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+			<Neutroamine>1</Neutroamine>
+		</products>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--  Positomnie -->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>MoreDrugs_positomine</defName>
+    <label>positomine</label>
+    <description>Separated from neutroamine, used to craft drugs.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Positomine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>8</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+  </ThingDef>
+
+  <!--  Negatomine  -->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>MoreDrugs_negatomine</defName>
+    <label>negatomine</label>
+    <description>Separated from neutroamine, used to craft drugs.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Negatomine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>8</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+  </ThingDef>
+
+</Defs>

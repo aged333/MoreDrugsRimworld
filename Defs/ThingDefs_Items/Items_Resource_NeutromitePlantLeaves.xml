@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--  Neutroamine Plant Leaves -->
+
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>MoreDrugs_NeutromitePlantLeaves</defName>
+    <label>neutromite leaves</label>
+    <description>Raw cut leaves of a neutromite plant.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/NeutromitePlantLeaves</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>20</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+    </ingestible>
+  </ThingDef>
+
+  <!--  Bases  -->
+
+</Defs>

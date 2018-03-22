@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>MoreDrugs_MakePositomineAndNegatomine</defName>
+    <label>make positomine and negatomine</label>
+    <description>Separate positomine and negatomine from neutroamine.</description>
+		<jobString>making positomine and negatomine</jobString>
+		<workAmount>1600</workAmount>
+    <workSpeedStat>DrugProductionSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+    <researchPrerequisite>MoreDrugs_PolarizedSubstances</researchPrerequisite>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+			<li>MoreDrugs_AdvancedDrugLab</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+			<MoreDrugs_positomine>1</MoreDrugs_positomine>
+      <MoreDrugs_negatomine>1</MoreDrugs_negatomine>
+		</products>
+	</RecipeDef>
+
+</Defs>
